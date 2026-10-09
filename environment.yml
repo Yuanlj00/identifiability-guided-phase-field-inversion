@@ -1,0 +1,11 @@
+name: cms-pf-core
+channels:
+  - defaults
+dependencies:
+  - python=3.12
+  - pip
+  - pip:
+      - numpy==1.26.4
+      - h5py==3.14.0
+      - pytest
+      # Install the platform-appropriate PyTorch build separately.
